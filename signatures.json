@@ -1,0 +1,58 @@
+{
+  "signatures": [
+    {
+      "hex": "25504446",
+      "offset": 0,
+      "extensions": [".pdf"],
+      "description": "PDF Document"
+    },
+    {
+      "hex": "504B0304",
+      "offset": 0,
+      "extensions": [".zip", ".docx", ".xlsx", ".pptx", ".apk", ".jar"],
+      "description": "ZIP Archive / OOXML"
+    },
+    {
+      "hex": "4D5A",
+      "offset": 0,
+      "extensions": [".exe", ".dll", ".sys", ".scr"],
+      "description": "Windows PE Executable"
+    },
+    {
+      "hex": "7F454C46",
+      "offset": 0,
+      "extensions": ["", ".so", ".elf"],
+      "description": "Linux ELF Executable"
+    },
+    {
+      "hex": "FEEDFACF",
+      "offset": 0,
+      "extensions": ["", ".macho", ".dylib"],
+      "description": "Mac OS Mach-O Binary"
+    },
+    {
+      "hex": "CAFEBABE",
+      "offset": 0,
+      "extensions": [".class"],
+      "description": "Java Class File"
+    },
+    {
+      "hex": "89504E470D0A1A0A",
+      "offset": 0,
+      "extensions": [".png"],
+      "description": "PNG Image"
+    },
+    {
+      "hex": "FFD8FF",
+      "offset": 0,
+      "extensions": [".jpg", ".jpeg"],
+      "description": "JPEG Image"
+    },
+    {
+      "hex": "526172211A07",
+      "offset": 0,
+      "extensions": [".rar"],
+      "description": "RAR Archive"
+    }
+  ]
+}
