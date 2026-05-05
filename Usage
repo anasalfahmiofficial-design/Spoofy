@@ -1,0 +1,5 @@
+On Linux \ MAC
+# python3 spoof_detect.py -f suspicious_file.jpg
+
+ On Windows
+# python spoof_detect.py -f suspicious_file.jpg
