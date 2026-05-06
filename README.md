@@ -37,13 +37,13 @@ pip3 install google-genai python-dotenv
 ```
 🐧 For Windows (cmd) 
 ```cmd
-# 1. Clone the repository git clone OR press the green CODE button in above
+:: 1. Clone the repository git clone OR press the green CODE button in above
 [https://github.com/anasalfahmiofficial-design/Spoofy.git](https://github.com/anasalfahmiofficial-design/Spoofy.git) 
 
-# 2. Enter the directory
+:: 2. Enter the directory
  cd Spoofy
 
-# 3. Install required libraries
+:: 3. Install required libraries
  pip install google-genai python-dotenv
 ```
 
