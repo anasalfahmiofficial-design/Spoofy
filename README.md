@@ -35,20 +35,34 @@ cd Spoofy
 # 3. Install required libraries
 pip3 install google-genai python-dotenv
 ```
-### 🐧 For Windows (cmd) 
-# 1. Clone the repository git clone [https://github.com/anasalfahmiofficial-design/Spoofy.git](https://github.com/anasalfahmiofficial-design/Spoofy.git) 
+🐧 For Windows (cmd) 
+```cmd
+# 1. Clone the repository git clone OR press the green CODE button in above
+[https://github.com/anasalfahmiofficial-design/Spoofy.git](https://github.com/anasalfahmiofficial-design/Spoofy.git) 
 
-# 2. Enter the directory cd Spoofy
+# 2. Enter the directory
+ cd Spoofy
 
-# 3. Install required libraries pip install google-genai python-dotenv 
+# 3. Install required libraries
+ pip install google-genai python-dotenv
+```
 
 
-💻 Usage On Linux/macOS: python3 spoof_detect.py -f suspicious_file.jpg 
+💻 Usage On Linux/macOS:
+```bash
+python3 Spoofy.py -f suspicious_file.jpg
+```
+On Windows:
+```cmd
+python Spoofy.py -f suspicious_file.jpg
+```
+Advanced Mode (Activate the AI) To supercharge Spoofy with AI capabilities: 
+Get a free API key from Google AI Studio. Create a file named .env in the Spoofy folder. Add your key like this: GEMINI_API_KEY=your_api_key_here
 
-On Windows: python spoof_detect.py -f suspicious_file.jpg 
-
-Advanced Mode (Activate the AI) To supercharge Spoofy with AI capabilities: Get a free API key from Google AI Studio. Create a file named .env in the Spoofy folder. Add your key like this: GEMINI_API_KEY=your_api_key_here
-
+To use the AI deep scan, you need to create a .env file. To avoid encoding issues on Windows, run this exact command in your terminal:
+```cmd
+Set-Content -Path .env -Value "GEMINI_API_KEY=your_api_key_here" -Encoding ascii
+```
 
 4. Run the tool normally. The AI engine will automatically activate!
 
